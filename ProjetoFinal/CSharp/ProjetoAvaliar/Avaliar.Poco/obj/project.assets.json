@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
       "projectName": "Avaliar.Poco",
-      "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

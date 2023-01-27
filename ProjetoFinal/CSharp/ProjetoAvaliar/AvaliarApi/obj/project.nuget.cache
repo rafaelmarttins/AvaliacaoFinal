@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gBkewawRCiP/fJKmYkYrcI1sLZCMmMocVE54dgWOaTcFqPxnEM/GJIcNHTeVhlRDQi5fx2+bltjIHWx6m5QWw==",
+  "dgSpecHash": "XXpBcOTyUC3T7ywRqYd7yQmjyaiKqFwyrWE47b5JjgtmVOxMw4kXMiukjv8XU6gi2jdVvce45vHtRAWqxm/naQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\linqkit.core\\1.2.3\\linqkit.core.1.2.3.nupkg.sha512",

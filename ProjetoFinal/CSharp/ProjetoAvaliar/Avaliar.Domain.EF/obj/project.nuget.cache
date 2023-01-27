@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+K+wUm2L9orTdyZ9WEc5sge+ZO5W4TmIuw11KquZEeOCSvHuI0FIMWJ+6223mL7otgiQp0uLpgTwtSDp4gHvaQ==",
+  "dgSpecHash": "4K+pggwSTUy+U97I+V8JrtOFFHuNyUMZapRiiQOe2TnO6utGUft9Kd0vW2v0Nin2JTb1TRjvrpB+Nb7d7JsgwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

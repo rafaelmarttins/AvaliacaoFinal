@@ -77,11 +77,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
       "projectName": "Avaliar.Envelope",
-      "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
-              "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
+            "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+              "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
             }
           }
         }

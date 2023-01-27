@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bTAygbhoK/nP/f9RpCEAtpVq4R/giK7Uboz7rfqM/ubb0A3tELn5cjpPMH2ftyav0Vki30Z92TcJE0OzaTjMOA==",
+  "dgSpecHash": "ZPnJ5DQpNzC1xsvVic+lBzI7fngqwi1kY1R30RxAImOpWo8Jxq1matXTJMfFnT62JRTXoNSSI5Du0UtE1plyYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

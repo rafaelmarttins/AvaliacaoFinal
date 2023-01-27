@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NOd+X8gj9n4nIjQO3sCtXEDqBO5ifVaIazZwS6iv+W5lm5LpO5tvCHklziA1UKfx2GkDmRrT/pq3I+FeCAeDfw==",
+  "dgSpecHash": "gHZ9samsIsDXcNt613uyAVOoyRkMyXMamM6RSTKqSyxssQ7m1LeH+DIj7pIzfDwrM5KA3xbMPuNJbYz/0J71pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],

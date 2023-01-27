@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8zbdXRqiUB1vl5+49BEnnfJxdRrdDHzW+6m9yr0lhcd8MT1EXIq2VMVV5qgL0T2B7JLYp6DTd9wT/+rk3da9Fg==",
+  "dgSpecHash": "gE2W8xjoEIW1wa/S4zXsZL6M9QflUCwlpZysvPpf6mXjCRwG4TUep92LFJ2bQ/be0nyIGNG/wkpFTCtkFY1QFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Documents\\GitHub\\AvaliacaoFinal\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
