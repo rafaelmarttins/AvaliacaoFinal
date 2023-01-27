@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar App - Pecuaria - Rebanho - Listar</title>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="../../../js/config.js"></script>
+    <script src="../../../js/pecuaria/pecuaria.js"></script>
+    <script src="../../../js/pecuaria/rebanho/config.js"></script>
+    <script src="../../../js/pecuaria/rebanho/detail.js"></script> 
+    <script src="../../../js/pecuaria/rebanho/create.js"></script> 
+    <script src="../../../js/pecuaria/rebanho/update.js"></script> 
+    <script src="../../../js/pecuaria/rebanho/delete.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-secondary">
+    <div class="container pt-4 my-5 card text-black ">
+        <div class="container card text-black ">
+            <h3 class="mb-4 text-center my-4 bordered">Detalhes do registro escolhido</h3>
+        </div>
+                
+        <form>
+
+            <div class="form-row mt-4">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoRebanho">CodigoRebanho</label>
+                    <input class="form-control" type="text" id="txtCodigoRebanho" name="txtCodigoRebanho"/>
+                </div>
+            
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtNomeMunicipio">Nome Municipio</label>
+                    <input class="form-control" type="text" id="txtNomeMunicipio" name="txtNomeMunicipio"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtSiglaUF">SiglaUF</label>
+                    <input class="form-control" type="text" id="txtSiglaUF" name="txtSiglaUF"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoTipoRebanho">CodigoTipoRebanho</label>
+                    <input class="form-control" type="text" id="txtCodigoTipoRebanho" name="txtCodigoTipoRebanho"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtCodigoIBGE7">Codigo IBGE7</label>
+                    <input class="form-control" type="text" id="txtCodigoIBGE7" name="txtCodigoIBGE7"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="mr-md-2" for="txtAnoReferencia">Ano Referência</label>
+                    <input class="form-control" type="text" id="txtAnoReferencia" name="txtAnoReferencia"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6" id="divSituacao">
+                    <label class="mr-md-2" for="txtSituacao">Situação</label>
+                    <input class="form-control" type="text" id="txtSituacao" name="txtSituacao"/>
+                </div>
+
+                <div class="form-group col-md-6" id="divInsercao">
+                    <label class="mr-md-2" for="txtDataDeInsercao">Data Inserção</label>
+                    <input class="form-control" type="text" id="txtDataDeInsercao" name="txtDataDeInsercao"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <div class="container card text-black">  
+                        <div class="custom-control custom-checkbox" id="divCheckBox">  
+                            <input type="checkbox" id="chbAtivo" name="chbAtivo" class="custom-control-input">  
+                            <h4> Ativo </h4>  
+                            <label class="custom-control-label" for="chbAtivo"> True </label>  
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+
+            <div class="form-row justify-content-center align-items-center">
+                <div>                
+                    <button type="button" class="btn btn-primary my-4 ml-1 mr-4" onclick="document.location='list.html'" id="btnVoltar" name="btnVoltar">Voltar</button>
+                    <button type="button" class="btn btn-success my-4 ml-4 mr-4"  id="btnNovo" name="btnNovo" onclick="cadastrar()">Novo</button>
+                    <button type="button" class="btn btn-warning my-4 ml-4 mr-4"  id="btnAlterar" name="btnAlterar" onclick="alterar()">Alterar</button>
+                    <button type="button" class="btn btn-danger my-4 ml-4 mr-4"  id="btnExcluir" name="btnExcluir" onclick="excluir()">Excluir</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

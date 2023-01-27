@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avaliar.Domain.EF\Avaliar.Domain.EF.csproj" />
+    <ProjectReference Include="..\Avaliar.Mapping\Avaliar.Mapping.csproj" />
+    <ProjectReference Include="..\Avaliar.Poco\Avaliar.Poco.csproj" />
+    <ProjectReference Include="..\Avaliar.Repository\Avaliar.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

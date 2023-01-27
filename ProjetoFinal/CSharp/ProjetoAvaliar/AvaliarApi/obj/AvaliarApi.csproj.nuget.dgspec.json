@@ -1,0 +1,516 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj",
+        "projectName": "Avaliar.Domain.EF",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
+        "projectName": "Avaliar.Envelope",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\Avaliar.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\Avaliar.Mapping.csproj",
+        "projectName": "Avaliar.Mapping",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\Avaliar.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
+        "projectName": "Avaliar.Poco",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj",
+        "projectName": "Avaliar.Repository",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj",
+        "projectName": "Avaliar.Service",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\Avaliar.Mapping.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Mapping\\Avaliar.Mapping.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj",
+        "projectName": "AvaliarApi",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\AvaliarApi.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\AvaliarApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Domain.EF\\Avaliar.Domain.EF.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Envelope\\Avaliar.Envelope.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Poco\\Avaliar.Poco.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Repository\\Avaliar.Repository.csproj"
+              },
+              "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Documents\\GitHub\\ProjetoFinal\\CSharp\\ProjetoAvaliar\\Avaliar.Service\\Avaliar.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LinqKit.Core": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Avaliar.Poco/1.0.0": {
+        "runtime": {
+          "Avaliar.Poco.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avaliar.Poco/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

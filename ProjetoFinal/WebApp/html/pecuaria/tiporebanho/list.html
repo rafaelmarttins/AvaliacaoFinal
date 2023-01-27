@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar App - Pecuaria - Tipo Rebanho - Listar</title>       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../../../js/config.js"></script>
+    <script src="../../../js/pecuaria/tiporebanho/config.js"></script>
+    <script src="../../../js/pecuaria/tiporebanho/list.js"></script>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> 
+</head>
+<body class="bg-secondary">
+    <div class="container pt-4 my-5 card text-black ">
+        <div>
+            <button id="btnNovo" name="btnNovo" class="btn-dark" onclick="cadastrarNovo()">Novo Registro</button>
+        </div>
+        <div>
+            <table id="tblDados" class="table table-bordered table-hover">
+                <thead class="bg-dark text-center text-white">
+                    <tr>
+                        <th>Detalhes</th>
+                        <th>CodigoTipoRebanho</th>
+                        <th>Descricao</th>
+                        <th>Alterar</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>        
+                <tbody>                    
+                </tbody>                
+            </table>
+        </div>
+        
+        <nav aria-label="Navegação de página exemplo" id="navPaginacao">
+            <ul class="pagination justify-content-center">
+              
+            </ul>
+          </nav>
+    </div>  
+</body>
+</html>

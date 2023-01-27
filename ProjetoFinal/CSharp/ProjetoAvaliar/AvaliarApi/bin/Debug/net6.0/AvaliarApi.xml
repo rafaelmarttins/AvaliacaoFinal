@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AvaliarApi</name>
+    </assembly>
+    <members>
+        <member name="T:AvaliarApi.Controllers.RebanhoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.#ctor(Avaliar.Domain.EF.AvaliarContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Rebanho por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetByTipoRebanho(System.Int32)">
+            <summary>
+            Listar todos os registros da tabela Rebanho por código Tipo Rebanho.
+            </summary>
+            <param name="tipcod"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Rebanho.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.Post(Avaliar.Poco.RebanhoPoco)">
+            <summary>
+            Inclui um novo dado em Rebanho.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.Put(Avaliar.Poco.RebanhoPoco)">
+            <summary>
+            Altera um dado existente em Cidade.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Rebanho, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetAllEnvelope(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON
+            </summary>
+            <param name="limite"></param>
+            <param name="salto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetPorMunicipio(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON filtrados pela sigla UF de Rebanho.
+            </summary>
+            <param name="siglaUF"></param>
+            <param name="limite"></param>
+            <param name="salto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetPorEstadoEnvelope(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON filtrados pelo código UF de Estado.
+            </summary>
+            <param name="tipcod"></param>
+            <param name="limite"></param>
+            <param name="salto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.RebanhoController.GetByIdEnvelope(System.Int32)">
+            <summary>
+            Retorna todos os registros por ID de modo envelopado para o arquivo JSON
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AvaliarApi.Controllers.TipoRebanhoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.#ctor(Avaliar.Domain.EF.AvaliarContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.GetAll(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Lista todos os registros de Tipo Rebanho por Paginação.
+            </summary>
+            <param name="take"> Onde inicia os resultados da pesquisa. </param>
+            <param name="skip"> Quantos registros serão retornados. </param>
+            <returns> Todos os registros. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.GetById(System.Int32)">
+            <summary>
+             Lista os registro usando a chave de Tipo Rebanho.
+            </summary>
+            <param name="chave"> Chave de pesquisa. </param>
+            <returns> Registro localizado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.Post(Avaliar.Poco.TipoRebanhoPoco)">
+            <summary>
+            Inclui um novo dado em Tipo Rebanho.
+            </summary>
+            <param name="poco"> Dados que será incluido. </param>
+            <returns> Dados incluido. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.Put(Avaliar.Poco.TipoRebanhoPoco)">
+            <summary>
+            Altera um dado existente em Tipo Rebanho.
+            </summary>
+            <param name="poco"> Altera o dado selecionado. </param>
+            <returns> Altera o dado selecionado. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.DeleteById(System.Int32)">
+            <summary>
+            Exclui um registro existente em Tipo Rebanho, utilizando um id.
+            </summary>
+            <param name="chave"> Chave para localização. </param>
+            <returns> Dado excluido por Id. </returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.GetAllEnvelope(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Retorna todos os registros de modo envelopado para o arquivo JSON
+            </summary>
+            <param name="limite"></param>
+            <param name="salto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AvaliarApi.Controllers.TipoRebanhoController.GetByIdEnvelope(System.Int32)">
+            <summary>
+            Retorna todos os registros por ID de modo envelopado para o arquivo JSON
+            </summary>
+            <param name="chave"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
