@@ -21,7 +21,7 @@ Foi utilizado também o Banco de Dados SQL SERVER para armazenar os dados.
 
 ## 📌 Versão
 
-* Backend DOTNET 6 
+* Backend .NET 6 
 * BootStrap 4.0
 
 ## ✒️ Autores
